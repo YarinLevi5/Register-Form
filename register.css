@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.min-container {
+    width: 500px;
+    border: 4px dashed black;
+    background-color: rgb(236, 211, 178);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    flex-flow: column;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.mes {
+    margin-top: 5px;
+    color: red;
+    font-family: fantasy;
+    font-size: 10px;
+}
+
+#btn,
+#reset {
+    background-color: cornflowerblue;
+}
+
+.details {
+    display: none;
+}
+
+.detailsShow {
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    color: black;
+    display: block;
+}

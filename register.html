@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="min-container">
+            <h2>Registration form</h2>
+            <form id="forme">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" required>
+                <br>
+                <div class="mes"></div>
+                <br>
+                <div id="message"></div>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" id="email" required>
+                <br>
+                <div class="mes"></div>
+                <br>
+                <label>Password:</label>
+                <br>
+                <input type="text" id="pass" required>
+                <br>
+                <div class="mes"></div>
+                <br>
+                <div><input type="checkbox" id="checkbox" required>I love spam</div>
+                <div class="mes"></div>
+                <br>
+                <input type="submit" value="submit" id="btn">
+                <input type="reset" value="reset" id="reset">
+                <div class="details">
+                    Your details were sent successfully
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
